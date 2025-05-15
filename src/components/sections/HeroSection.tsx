@@ -9,13 +9,17 @@ const HeroSection = () => {
 
   return (
     <div className="relative bg-primary overflow-hidden">
+      {/* Darkened background image with a black overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center" 
         style={{ 
           backgroundImage: "url('/lovable-uploads/b67844d6-58b8-4d26-b556-9806dd95ba1d.png')", 
-          opacity: 0.7
+          opacity: 0.5
         }} 
       />
+      
+      {/* Additional dark overlay for better text visibility */}
+      <div className="absolute inset-0 bg-black opacity-50"></div>
       
       <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
