@@ -11,8 +11,8 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center" 
         style={{ 
-          backgroundImage: "url('https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80')", 
-          opacity: 0.3 
+          backgroundImage: "url('/lovable-uploads/b67844d6-58b8-4d26-b556-9806dd95ba1d.png')", 
+          opacity: 0.7
         }} 
       />
       
@@ -39,7 +39,7 @@ const HeroSection = () => {
               <div className="flex justify-between items-center mb-6">
                 <div className="text-center">
                   <img 
-                    src="https://via.placeholder.com/80" 
+                    src="/lovable-uploads/952baa56-eaec-4f25-95b6-912b72057dde.png" 
                     alt="Boxer 1" 
                     className="w-20 h-20 rounded-full mx-auto mb-2 object-cover"
                   />
@@ -54,7 +54,7 @@ const HeroSection = () => {
                 
                 <div className="text-center">
                   <img 
-                    src="https://via.placeholder.com/80" 
+                    src="/lovable-uploads/952baa56-eaec-4f25-95b6-912b72057dde.png" 
                     alt="Boxer 2" 
                     className="w-20 h-20 rounded-full mx-auto mb-2 object-cover"
                   />
