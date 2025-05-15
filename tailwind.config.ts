@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -67,7 +66,10 @@ export default {
 				'boxing-blue': '#3182CE',
 				'boxing-black': '#1A1F2C',
 				'boxing-gold': '#D69E2E',
-				'boxing-silver': '#A0AEC0'
+				'boxing-silver': '#A0AEC0',
+				'sport-dark': '#222222',
+				'sport-light': '#F1F1F1',
+				'sport-blue': '#0EA5E9',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
