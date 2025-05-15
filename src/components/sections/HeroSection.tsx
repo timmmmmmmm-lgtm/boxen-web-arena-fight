@@ -2,6 +2,7 @@
 import React from "react";
 import { Card } from "@/components/ui/card";
 import { useIsMobile } from "@/hooks/use-mobile";
+import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
   const isMobile = useIsMobile();
@@ -18,16 +19,16 @@ const HeroSection = () => {
       
       <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="text-white">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4">Willkommen bei BoxFan</h1>
-            <p className="text-xl mb-8">Deine zentrale Plattform für alle Box-News, Events und Community-Interaktion.</p>
+          <div className="text-sport-light">
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-sport-light text-shadow">WILLKOMMEN BEI BOXFAN</h1>
+            <p className="text-xl mb-8 text-sport-light">Deine zentrale Plattform für alle Box-News, Events und Community-Interaktion.</p>
             <div className="space-x-4">
-              <button className="bg-destructive text-white px-6 py-3 rounded-md font-medium hover:bg-opacity-90 transition-colors">
+              <Button variant="secondary" className="text-sport-light">
                 Live-Ergebnisse
-              </button>
-              <button className="bg-white text-primary px-6 py-3 rounded-md font-medium hover:bg-opacity-90 transition-colors">
+              </Button>
+              <Button variant="outline" className="bg-transparent text-sport-light border-sport-light hover:bg-sport-light/10">
                 Eventkalender
-              </button>
+              </Button>
             </div>
           </div>
           
@@ -62,9 +63,9 @@ const HeroSection = () => {
                   <p className="text-sm text-muted-foreground">22-2-1</p>
                 </div>
               </div>
-              <button className="w-full bg-primary text-white py-2 rounded font-medium hover:bg-opacity-90 transition-colors">
+              <Button className="w-full" variant="secondary">
                 Zum Liveticker
-              </button>
+              </Button>
             </div>
           )}
         </div>
