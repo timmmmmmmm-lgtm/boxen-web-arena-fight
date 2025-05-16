@@ -3,6 +3,7 @@ import React from "react";
 import { Card } from "@/components/ui/card";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Button } from "@/components/ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 const HeroSection = () => {
   const isMobile = useIsMobile();
@@ -43,11 +44,14 @@ const HeroSection = () => {
               </div>
               <div className="flex justify-between items-center mb-6">
                 <div className="text-center">
-                  <img 
-                    src="/lovable-uploads/952baa56-eaec-4f25-95b6-912b72057dde.png" 
-                    alt="Boxer 1" 
-                    className="w-20 h-20 rounded-full mx-auto mb-2 object-cover"
-                  />
+                  <Avatar className="w-20 h-20 mx-auto mb-2">
+                    <AvatarImage 
+                      src="/lovable-uploads/a4ed57fc-65a1-4a87-89f0-6df8abcb7d0f.png" 
+                      alt="Max Müller" 
+                      className="object-cover"
+                    />
+                    <AvatarFallback>MM</AvatarFallback>
+                  </Avatar>
                   <p className="font-bold">Max Müller</p>
                   <p className="text-sm text-muted-foreground">28-0-0</p>
                 </div>
@@ -58,11 +62,14 @@ const HeroSection = () => {
                 </div>
                 
                 <div className="text-center">
-                  <img 
-                    src="/lovable-uploads/952baa56-eaec-4f25-95b6-912b72057dde.png" 
-                    alt="Boxer 2" 
-                    className="w-20 h-20 rounded-full mx-auto mb-2 object-cover"
-                  />
+                  <Avatar className="w-20 h-20 mx-auto mb-2">
+                    <AvatarImage 
+                      src="/lovable-uploads/764f5b4d-c463-433d-9f28-1ac8e8fb9aa3.png" 
+                      alt="Leon Schmidt" 
+                      className="object-cover"
+                    />
+                    <AvatarFallback>LS</AvatarFallback>
+                  </Avatar>
                   <p className="font-bold">Leon Schmidt</p>
                   <p className="text-sm text-muted-foreground">22-2-1</p>
                 </div>
