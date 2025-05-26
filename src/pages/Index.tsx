@@ -19,9 +19,9 @@ const Index = () => {
       <div className="container mx-auto px-4 py-8">
         <Tabs defaultValue="news" className="w-full">
           <TabsList className="w-full justify-start mb-6 bg-sidebar">
-            <TabsTrigger value="news" className="text-white hover:text-white data-[state=active]:text-white">Neueste Nachrichten</TabsTrigger>
-            <TabsTrigger value="events" className="text-white hover:text-white data-[state=active]:text-white">Kommende Events</TabsTrigger>
-            <TabsTrigger value="rankings" className="text-white hover:text-white data-[state=active]:text-white">Ranglisten</TabsTrigger>
+            <TabsTrigger value="news" className="text-sport-light hover:text-sport-light">Neueste Nachrichten</TabsTrigger>
+            <TabsTrigger value="events" className="text-sport-light hover:text-sport-light">Kommende Events</TabsTrigger>
+            <TabsTrigger value="rankings" className="text-sport-light hover:text-sport-light">Ranglisten</TabsTrigger>
           </TabsList>
           
           <TabsContent value="news" className="space-y-6">

@@ -14,7 +14,7 @@ const eventsData = [
     time: "20:00",
     description: "Eine spektakuläre Boxnacht mit mehreren Titelkämpfen und Nachwuchstalenten.",
     mainEvent: "Schmidt vs. Müller",
-    image: "/lovable-uploads/b67844d6-58b8-4d26-b556-9806dd95ba1d.png",
+    image: "/lovable-uploads/3d737b37-14f1-410a-9068-89e5aa6a3f05.png",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ const eventsData = [
     time: "19:30",
     description: "Die größte Boxveranstaltung des Jahres in Süddeutschland mit internationaler Beteiligung.",
     mainEvent: "Wagner vs. Hoffmann",
-    image: "/lovable-uploads/3d737b37-14f1-410a-9068-89e5aa6a3f05.png",
+    image: "/lovable-uploads/b67844d6-58b8-4d26-b556-9806dd95ba1d.png",
   },
   {
     id: 3,

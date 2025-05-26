@@ -1,3 +1,4 @@
+
 import React from "react";
 import MainLayout from "@/components/layouts/MainLayout";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -10,7 +11,7 @@ const communityMembers = [
     id: 1,
     username: "BoxFan123",
     name: "Michael Schmidt",
-    avatar: "/lovable-uploads/a4ed57fc-65a1-4a87-89f0-6df8abcb7d0f.png",
+    avatar: "https://via.placeholder.com/150",
     joinDate: "2022-01-15",
     posts: 127,
     favoriteBoxer: "Max Schmidt",
@@ -20,7 +21,7 @@ const communityMembers = [
     id: 2,
     username: "RingWarrior",
     name: "Lisa Müller",
-    avatar: "/lovable-uploads/764f5b4d-c463-433d-9f28-1ac8e8fb9aa3.png",
+    avatar: "https://via.placeholder.com/150",
     joinDate: "2022-03-22",
     posts: 98,
     favoriteBoxer: "Felix Wagner",
@@ -30,7 +31,7 @@ const communityMembers = [
     id: 3,
     username: "KnockoutKing",
     name: "Thomas Fischer",
-    avatar: "/lovable-uploads/b67844d6-58b8-4d26-b556-9806dd95ba1d.png",
+    avatar: "https://via.placeholder.com/150",
     joinDate: "2022-02-08",
     posts: 156,
     favoriteBoxer: "Michael Johnson",
@@ -40,7 +41,7 @@ const communityMembers = [
     id: 4,
     username: "BoxingFever",
     name: "Julia Wagner",
-    avatar: "/lovable-uploads/3d737b37-14f1-410a-9068-89e5aa6a3f05.png",
+    avatar: "https://via.placeholder.com/150",
     joinDate: "2022-04-30",
     posts: 76,
     favoriteBoxer: "Leon Schulz",
@@ -50,7 +51,7 @@ const communityMembers = [
     id: 5,
     username: "RingMaster",
     name: "Kevin König",
-    avatar: "/lovable-uploads/952baa56-eaec-4f25-95b6-912b72057dde.png",
+    avatar: "https://via.placeholder.com/150",
     joinDate: "2022-01-03",
     posts: 203,
     favoriteBoxer: "Tim Fischer",
@@ -60,7 +61,7 @@ const communityMembers = [
     id: 6,
     username: "PunchPerfect",
     name: "Sandra Wolf",
-    avatar: "/lovable-uploads/a4ed57fc-65a1-4a87-89f0-6df8abcb7d0f.png",
+    avatar: "https://via.placeholder.com/150",
     joinDate: "2022-03-17",
     posts: 87,
     favoriteBoxer: "Sarah Wagner",
