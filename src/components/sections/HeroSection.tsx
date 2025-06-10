@@ -25,7 +25,7 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-foreground">
-            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-primary text-shadow">WILLKOMMEN BEI BOXFAN</h1>
+            <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white text-shadow">WILLKOMMEN BEI BOXFAN</h1>
             <p className="text-xl mb-8 text-foreground">Deine zentrale Plattform für alle Box-News, Events und Community-Interaktion.</p>
             <div className="space-x-4">
               <Button variant="default" className="bg-primary text-primary-foreground hover:bg-primary/90">
@@ -46,7 +46,7 @@ const HeroSection = () => {
                 <div className="text-center">
                   <Avatar className="w-20 h-20 mx-auto mb-2">
                     <AvatarImage 
-                      src="/lovable-uploads/1b298bb9-96fc-4bf2-a5c5-438ba21473fd.png" 
+                      src="/lovable-uploads/4c4231f6-fc19-479b-a044-8799acabe445.png" 
                       alt="Max Müller" 
                       className="object-cover"
                     />
@@ -64,7 +64,7 @@ const HeroSection = () => {
                 <div className="text-center">
                   <Avatar className="w-20 h-20 mx-auto mb-2">
                     <AvatarImage 
-                      src="/lovable-uploads/5787b763-c528-4895-a35d-2d047b53973d.png" 
+                      src="/lovable-uploads/aefbd488-46da-40b1-8657-7ab34faa6028.png" 
                       alt="Leon Schmidt" 
                       className="object-cover"
                     />

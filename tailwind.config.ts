@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -64,13 +63,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				'boxing-red': '#E53E3E',
-				'boxing-orange': '#FF8C00',
+				'boxing-blue': '#3182CE',
 				'boxing-black': '#1A1F2C',
 				'boxing-gold': '#D69E2E',
 				'boxing-silver': '#A0AEC0',
 				'sport-dark': '#222222',
 				'sport-light': '#F1F1F1',
-				'sport-orange': '#FF8C00',
+				'sport-blue': '#3182CE',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
