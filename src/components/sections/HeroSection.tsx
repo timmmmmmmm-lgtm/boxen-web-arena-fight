@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center" 
         style={{ 
-          backgroundImage: "url('/lovable-uploads/b67844d6-58b8-4d26-b556-9806dd95ba1d.png')", 
+          backgroundImage: "url('/lovable-uploads/cf24bcd3-2d4e-4458-92ec-a2de0b27e34a.png')", 
           opacity: 0.3
         }} 
       />
@@ -46,7 +46,7 @@ const HeroSection = () => {
                 <div className="text-center">
                   <Avatar className="w-20 h-20 mx-auto mb-2">
                     <AvatarImage 
-                      src="/lovable-uploads/a4ed57fc-65a1-4a87-89f0-6df8abcb7d0f.png" 
+                      src="/lovable-uploads/1b298bb9-96fc-4bf2-a5c5-438ba21473fd.png" 
                       alt="Max Müller" 
                       className="object-cover"
                     />
@@ -64,7 +64,7 @@ const HeroSection = () => {
                 <div className="text-center">
                   <Avatar className="w-20 h-20 mx-auto mb-2">
                     <AvatarImage 
-                      src="/lovable-uploads/764f5b4d-c463-433d-9f28-1ac8e8fb9aa3.png" 
+                      src="/lovable-uploads/5787b763-c528-4895-a35d-2d047b53973d.png" 
                       alt="Leon Schmidt" 
                       className="object-cover"
                     />
