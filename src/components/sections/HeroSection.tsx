@@ -9,29 +9,29 @@ const HeroSection = () => {
   const isMobile = useIsMobile();
 
   return (
-    <div className="relative bg-secondary overflow-hidden">
+    <div className="relative bg-primary overflow-hidden">
       {/* Hintergrundbild mit dunklem Overlay */}
       <div 
         className="absolute inset-0 bg-cover bg-center" 
         style={{ 
           backgroundImage: "url('/lovable-uploads/cf24bcd3-2d4e-4458-92ec-a2de0b27e34a.png')", 
-          opacity: 0.4
+          opacity: 0.3
         }} 
       />
       
-      {/* Zusätzliches dunkles Overlay für bessere Textlesbarkeit */}
-      <div className="absolute inset-0 bg-secondary opacity-80"></div>
+      {/* Zusätzliches blaues Overlay für bessere Textlesbarkeit */}
+      <div className="absolute inset-0 bg-primary opacity-80"></div>
       
       <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="text-foreground">
+          <div className="text-white">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-white text-shadow">WILLKOMMEN BEI BOXFAN</h1>
-            <p className="text-xl mb-8 text-foreground">Deine zentrale Plattform für alle Box-News, Events und Community-Interaktion.</p>
+            <p className="text-xl mb-8 text-white">Deine zentrale Plattform für alle Box-News, Events und Community-Interaktion.</p>
             <div className="space-x-4">
-              <Button variant="default" className="bg-primary text-primary-foreground hover:bg-primary/90">
+              <Button variant="secondary" className="bg-white text-primary hover:bg-gray-100">
                 Live-Ergebnisse
               </Button>
-              <Button variant="outline" className="bg-transparent text-primary border-primary hover:bg-primary/10">
+              <Button variant="outline" className="bg-transparent text-white border-white hover:bg-white/10">
                 Eventkalender
               </Button>
             </div>
@@ -40,7 +40,7 @@ const HeroSection = () => {
           {!isMobile && (
             <div className="bg-background/90 backdrop-blur-sm rounded-lg p-4">
               <div className="text-center p-2 bg-destructive text-destructive-foreground rounded mb-4">
-                <h3 className="font-bold">Live jetzt</h3>
+                <h3 className="font-bold text-white">Live jetzt</h3>
               </div>
               <div className="flex justify-between items-center mb-6">
                 <div className="text-center">
@@ -74,7 +74,7 @@ const HeroSection = () => {
                   <p className="text-sm text-muted-foreground">22-2-1</p>
                 </div>
               </div>
-              <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" variant="default">
+              <Button className="w-full bg-primary hover:bg-primary/90 text-white" variant="default">
                 Zum Liveticker
               </Button>
             </div>
