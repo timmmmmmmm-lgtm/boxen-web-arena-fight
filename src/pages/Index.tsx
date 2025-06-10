@@ -18,10 +18,10 @@ const Index = () => {
       
       <div className="container mx-auto px-4 py-8">
         <Tabs defaultValue="news" className="w-full">
-          <TabsList className="w-full justify-start mb-6 bg-sidebar">
-            <TabsTrigger value="news" className="text-sport-light hover:text-sport-light">Neueste Nachrichten</TabsTrigger>
-            <TabsTrigger value="events" className="text-sport-light hover:text-sport-light">Kommende Events</TabsTrigger>
-            <TabsTrigger value="rankings" className="text-sport-light hover:text-sport-light">Ranglisten</TabsTrigger>
+          <TabsList className="w-full justify-start mb-6 bg-primary">
+            <TabsTrigger value="news" className="text-white hover:text-white data-[state=active]:text-primary">Neueste Nachrichten</TabsTrigger>
+            <TabsTrigger value="events" className="text-white hover:text-white data-[state=active]:text-primary">Kommende Events</TabsTrigger>
+            <TabsTrigger value="rankings" className="text-white hover:text-white data-[state=active]:text-primary">Ranglisten</TabsTrigger>
           </TabsList>
           
           <TabsContent value="news" className="space-y-6">
@@ -36,15 +36,15 @@ const Index = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card>
                 <CardHeader>
-                  <CardTitle>Schwergewicht Rangliste</CardTitle>
+                  <CardTitle className="text-sport-dark">Schwergewicht Rangliste</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">Top Boxer im Schwergewicht</p>
                   <div className="space-y-2">
                     {[1, 2, 3, 4, 5].map((rank) => (
                       <div key={rank} className="flex justify-between border-b pb-2">
-                        <span className="font-bold">{rank}.</span>
-                        <span>Boxer Name {rank}</span>
+                        <span className="font-bold text-sport-dark">{rank}.</span>
+                        <span className="text-sport-dark">Boxer Name {rank}</span>
                         <span className="text-muted-foreground">32-0-0</span>
                       </div>
                     ))}
@@ -54,15 +54,15 @@ const Index = () => {
               
               <Card>
                 <CardHeader>
-                  <CardTitle>Mittelgewicht Rangliste</CardTitle>
+                  <CardTitle className="text-sport-dark">Mittelgewicht Rangliste</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground mb-4">Top Boxer im Mittelgewicht</p>
                   <div className="space-y-2">
                     {[1, 2, 3, 4, 5].map((rank) => (
                       <div key={rank} className="flex justify-between border-b pb-2">
-                        <span className="font-bold">{rank}.</span>
-                        <span>Boxer Name {rank}</span>
+                        <span className="font-bold text-sport-dark">{rank}.</span>
+                        <span className="text-sport-dark">Boxer Name {rank}</span>
                         <span className="text-muted-foreground">28-1-0</span>
                       </div>
                     ))}
